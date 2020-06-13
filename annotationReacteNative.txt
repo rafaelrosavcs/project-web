@@ -1,0 +1,43 @@
+npm install -g expo-cli // instalar expo CLI
+#################################################
+expo init mobile // criando pasta do projeto e inicializando o código da aplicação
+expo-template-blank-typescript
+cd mobile
+npm start
+npm run android
+npm run ios
+npm run web
+expo-common-issues // https://github.com/Rocketseat/expo-common-issues
+#################################################
+cd mobile
+npm start
+#################################################
+https://slack.expo.io/ // editor de código e emulador
+#################################################
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto // https://github.com/expo/google-fonts
+#################################################
+https://reactnavigation.org/docs/getting-started
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+#################################################
+expo install react-native-maps // extensão pra trabalhar com mapas
+#################################################
+expo install expo-constants 
+#################################################
+expo install react-native-svg // travalhar com svg
+#################################################
+npm install axios // fazer request para api
+#################################################
+expo install expo-location // lib de localização
+#################################################
+https://docs.expo.io/versions/latest/sdk/mail-composer/
+expo install expo-mail-composer
+import * as MailComposer from 'expo-mail-composer';
+#################################################
+https://www.npmjs.com/package/react-native-picker-select
+npm install react-native-picker-select
+
+
+
+

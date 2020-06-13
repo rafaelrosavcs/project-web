@@ -1,0 +1,86 @@
+software para anotações www.notion.so // desenhar layout: figma
+material icon theme
+#####################################################################
+install chocolatey gerênciador de pacotes
+https://chocolatey.org/install
+windows powerShell
+Get-ExecutionPolicy
+Set-ExecutionPolicy AllSigned
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+#####################################################################
+install nodejs
+choco install nodejs-lts
+node -v
+npm -v
+#####################################################################
+iniciando o projeto nodejs
+npm init -y
+npm install express
+typescript
+npm install @types/express -D // adicionando definição de tipo typescript
+npm install ts-node -D 
+npm install tyupescript -D // instalando o typescript
+npx tsc --init // cria arquivo de configuração para o typescript
+npx ts-node src/server.ts // rodar a aplicação
+npm install ts-node-dev -D // pra observar as modificações e quando houver, executa novamente o server
+npx ts-node-dev src/server.ts // run server
+npm run dev // modificado "script" package.json // run server
+######################################################################
+criando projeto com react
+npx create-react-app web --template=typescript // cria pastra com projeto react
+npm start // run project react
+To begin the development, run `npm start` or `yarn start`.
+To create a production bundle, use `npm run build` or `yarn build`.
+######################################################################
+banco de dados sqlite
+migrations // histórico do banco de dados
+querybuilder knex
+npm install knex
+npm install sqlite3
+npx knex --knexfile knexfile.ts migrate:latest // run migrations
+npm knex:migrate // adicionado o comando completo ao script do package.json // run migrations
+sqlite // extensão vscode para visualizar as dados/tabelas
+npm knex:seed // inserir dados default na tabela
+######################################################################
+adicionando cors
+npm install cors
+######################################################################
+www.unsplash.com // repositório de imagens gratuitas
+https://fonts.google.com/ // fonte Roboto, Ubuntu
+estudar display: flex
+######################################################################
+npm install react-icons // https://react-icons.github.io/react-icons/
+######################################################################
+npm install react-router-dom // lib de roteamento
+npm install @types/react-router-dom -D // typescript
+######################################################################
+mapa open source leaflet // https://leafletjs.com/ // tutorial/quick-start/ importar css para o index.js do projeto
+biblioteca react para integrar com o mapa leaflet // https://react-leaflet.js.org/ // ver documentação 
+npm install leaflet react-leaflet
+npm install @types/react-leaflet -D // typescript
+######################################################################
+biblioteca para fazer requisições do front para o back-end // npm install axios
+######################################################################
+https://servicodados.ibge.gov.br/api/docs // api de locaidades UF/Cidade
+######################################################################
+https://github.com/typescript-cheatsheets/react-typescript-cheatsheet // guia typescript
+######################################################################
+npm install multer // extensão pra lidar com uploader de imagens 
+npm install @types/multer -D
+formato json não suporta arquivos, mudar formato para multiPart Form
+serialização, API transform
+######################################################################
+react-dropzone // https://github.com/react-dropzone/react-dropzone
+npm install react-dropzone
+######################################################################
+validação front-end // https://github.com/jquense/yup
+validação back-end // https://github.com/arb/celebrate
+npm install celebrate
+npm install @types/hapi__joi -D
+
+
+
+
+
+
+

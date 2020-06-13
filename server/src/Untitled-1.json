@@ -1,0 +1,14 @@
+{
+	   "name": "Mercado Santos", 
+     "email": "contato@imperatriz.com.br",
+     "whatsapp": "4799999999",
+     "latitude": -46.343434,
+     "longitude": -35.454545,
+     "city": "Rio do Sul",
+     "uf": "SC",
+     "items": [
+			 1,
+			 2,
+			 6
+		 ]
+}
